@@ -1,8 +1,0 @@
-.cover__title_hovered:hover ~ .cover__overlay {
-  opacity: 0.7;
-}
-
-.cover__title_hovered:hover {
-  cursor: pointer;
-}
-
