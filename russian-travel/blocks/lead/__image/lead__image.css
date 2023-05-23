@@ -1,0 +1,22 @@
+.lead__image {
+  width: 984px;
+}
+
+@media screen and (max-width: 1024px) {
+  .lead__image {
+    width: 928px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .lead__image {
+    width: 768px;
+  }
+}
+
+/* TODO screen width for IPhone SE 375px and for Samsung - 412px */
+@media screen and (max-width: 320px) {
+  .lead__image {
+    width: 320px;
+  }
+}
