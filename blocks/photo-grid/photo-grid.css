@@ -1,6 +1,6 @@
 .photo-grid {
-  max-width: 1184px;
   align-self: center;
+  justify-content: center;
   display: grid;
   grid-auto-flow: row;
   grid-template-rows: repeat(3, minmax(min-content, max-content));
@@ -9,7 +9,7 @@
   margin: 0 auto;
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1214px) {
   .photo-grid {
     max-width: 928px;
     grid-template-rows: repeat(4, minmax(min-content, max-content));
@@ -18,7 +18,7 @@
   }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 958px) {
   .photo-grid {
     max-width: 720px;
     grid-template-rows: repeat(6, minmax(min-content, max-content));
@@ -28,7 +28,7 @@
 }
 
 /* TODO screen width for IPhone SE 375px and for Samsung - 412px */
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 736px) {
   .photo-grid {
     max-width: 288px;
     grid-template-rows: repeat(12, minmax(min-content, max-content));

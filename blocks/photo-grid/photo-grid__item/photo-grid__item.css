@@ -3,14 +3,14 @@
   height: 213px;
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1214px) {
   .photo-grid__item {
     width: 300px;
     height: 225px;
   }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 958px) {
   .photo-grid__item {
     width: 352px;
     height: 264px;
@@ -18,7 +18,7 @@
 }
 
 /* TODO screen width for IPhone SE 375px and for Samsung - 412px */
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 360px) {
   .photo-grid__item {
     width: 288px;
     height: 216px;

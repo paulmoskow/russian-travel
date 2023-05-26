@@ -4,17 +4,17 @@
   justify-content: end;
   align-items: start;
   grid-area: website;
-  width: 456px;
 }
 
 @media screen and (max-width: 768px) {
   .place__website {
-    margin-top: 73px;
+    margin-top: 3rem;
   }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 620px) {
   .place__website {
     margin-top: 0;
+    margin-left: 12px;
   }
 }

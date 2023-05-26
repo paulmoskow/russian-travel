@@ -5,16 +5,19 @@
   line-height: 1.1;
   margin: 0;
   grid-area: title;
+  max-width: 340px;
 }
 
 @media screen and (max-width: 768px) {
   .place__title {
     font-size: 2.6rem;
+    align-self: end;
   }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 620px) {
   .place__title {
     font-size: 2rem;
+    margin-left: 12px;
   }
 }

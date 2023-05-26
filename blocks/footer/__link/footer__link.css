@@ -9,9 +9,11 @@
   transition: opacity linear 0.5s;
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 340px) {
   .footer__link {
+    position: relative;
     font-size: 1.5rem;
     line-height: 1;
+    padding-bottom: 2rem;
   }
 }
