@@ -18,7 +18,7 @@
 }
 
 /* TODO screen width for IPhone SE 375px and for Samsung - 412px */
-@media screen and (max-width: 360px) {
+@media screen and (max-width: 738px) {
   .photo-grid__item {
     width: 288px;
     height: 216px;

@@ -27,8 +27,7 @@
   }
 }
 
-/* TODO screen width for IPhone SE 375px and for Samsung - 412px */
-@media screen and (max-width: 736px) {
+@media screen and (max-width: 738px) {
   .photo-grid {
     max-width: 288px;
     grid-template-rows: repeat(12, minmax(min-content, max-content));

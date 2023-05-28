@@ -14,19 +14,33 @@
 
 @media screen and (max-width: 1024px) {
   .cover {
-    width: 96vw;
-    height: 640px;
+    max-width: 1024px;
+    min-height: 640px;
   }
 }
 
 @media screen and (max-width: 768px) {
   .cover {
-    height: 480px;
+    max-width: 768px;
+    min-height: 480px;
+  }
+}
+
+@media screen and (max-width: 620px) {
+  .cover {
+    margin-top: 16px;
   }
 }
 
 @media screen and (max-width: 510px) {
   .cover {
-    height: 200px;
+    min-height: 200px;
   }
 }
+
+@media screen and (max-width: 320px) {
+  .cover {
+    max-width: 320px;
+  }
+}
+

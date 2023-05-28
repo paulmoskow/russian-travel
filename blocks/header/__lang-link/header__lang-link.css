@@ -2,16 +2,20 @@
   color: #fff;
   font-weight: 400;
   font-size: 1.5rem;
-  line-height: 1.2;
+  line-height: 1.17;
   margin-left: 18px;
   text-decoration: none;
   transition: opacity linear 0.5s;
 }
 
+.header__lang-link:last-of-type {
+  margin-left: 0;
+}
+
 @media screen and (max-width: 320px) {
   .header__lang-link {
     font-size: 1.13rem;
-    line-height: 1.1;
+    line-height: 1.11;
   }
 }
 

@@ -13,8 +13,8 @@
 @media screen and (max-width: 768px) {
   .place {
     column-gap: 28px;
-    margin: 0 24px;
     grid-template-rows: 3rem minmax(min-content, max-content);
+    margin-bottom: 25px;
   }
 }
 
@@ -28,6 +28,7 @@
     "image"
     "paragraph";
     gap: 32px;
-    margin: 0;
+   justify-content: center;
+   margin-bottom: 50px;
   }
 }
