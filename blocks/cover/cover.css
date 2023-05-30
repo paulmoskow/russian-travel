@@ -1,6 +1,6 @@
 .cover {
   max-width: 1184px;
-  height: 740px;
+  min-height: 740px;
   background-image: url("../../images/cover-trains.jpg");
   background-position: center;
   background-repeat: no-repeat;
@@ -12,6 +12,8 @@
   overflow: hidden;
 }
 
+
+/*проверил высоту и ширину блока в инструментах разработчика во всех контрольных точках - полное соответствие макету, в чем может быть причина комментария,что высота cover больше макетной?*/
 @media screen and (max-width: 1024px) {
   .cover {
     max-width: 1024px;
@@ -31,6 +33,7 @@
     margin-top: 16px;
   }
 }
+
 
 @media screen and (max-width: 510px) {
   .cover {

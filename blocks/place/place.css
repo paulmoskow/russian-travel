@@ -28,7 +28,7 @@
     "image"
     "paragraph";
     gap: 32px;
-   justify-content: center;
-   margin-bottom: 50px;
+    justify-content: center;
+    margin-bottom: 50px;
   }
 }

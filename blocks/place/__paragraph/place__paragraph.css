@@ -1,8 +1,8 @@
 .place__paragraph {
   font-style: normal;
   font-weight: 400;
-  font-size: 1.1rem;
-  line-height: 1.6;
+  font-size: 1.13rem;
+  line-height: 1.63;
   margin: 0 0 25px;
   grid-area: paragraph;
 }
@@ -16,7 +16,13 @@
 
 @media screen and (max-width: 620px) {
   .place__paragraph {
-    max-width: 288px;
+    max-width: 304px;
+    margin: 0 auto 25px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .place__paragraph {
     margin: 0 8px 25px;
   }
 }
